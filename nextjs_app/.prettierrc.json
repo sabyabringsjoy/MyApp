@@ -1,0 +1,6 @@
+// .prettierrc
+{
+  "singleQuote": true,
+  "semi": false
+}
+
