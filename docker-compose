@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  go-app:
+    image: sabyabringsjoy/go-app
+    ports:
+      - "8080:8080"
+  nextjs-app:
+    image: sabyabringsjoy/nextjs-app
+    ports:
+      - "3000:3000"
+  wordpress-app:
+    image: sabyabringsjoy/wordpress-app
+    ports:
+      - "8081:80"
+
